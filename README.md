@@ -25,7 +25,7 @@ It requires the following:
 
 ## USAGE
 
-Clone the Github repository `git -clone https://bla bla bla`
+Clone the Github repository `git clone https://github.com/proteusx/Suda-For-GoldenDict.git`
 
 Edit the first line of the file `build-suda.sh`. The variable `TLG_CDROM` must
 contain the path to the TLG CDROM files.
