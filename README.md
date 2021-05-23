@@ -38,6 +38,9 @@ copy the folder **`dictionary`** to some other location.
 
 There is also a release with `suda.dsl` compiled and ready to use.
 
+## NOTES
+The Suda as encoded in the TLG CDROM is sourced from this hard copy edition:
+Suidae lexicon, 4 vols., Adler, A. (Ed) Leipzig, Teubner, 1928 - 1971
 
 ## SEE ALSO
 
