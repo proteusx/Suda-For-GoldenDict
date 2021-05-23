@@ -12,15 +12,15 @@ data into a ABBYY Lingvo .dsl dictionary file that can be used with
 other modern dictionary.
 
 ## DEPENDENCIES
-The **Suda For GoldenDict** script is meant to be used within a Linux environment.
+The **Suda For GoldenDict** script is meant to be run within a Linux environment.
 It requires the following:
 
-* [tlg2u](https://github.com/proteusx/tlg2u), the beta-code to utf-8 text conversion
+* [tlg2u](https://github.com/proteusx/tlg2u), this is the beta-code to utf-8 text conversion
     utility.
 * Bash
 * Perl
 * Patch
-* TLG CDROM. This can be found via bit torrents.
+* TLG CDROM. This is no longer sold but it can be found via bit torrents.
 
 
 ## USAGE
@@ -32,20 +32,19 @@ contain the path to the TLG CDROM files.
 
 Run the script `build-suda.sh`
 
-If everything is in order the file **`dictionary/suda.dsl`** will be produced.  Point
-GoldenDict to this folder and Suda lexicon is ready to search.  Alternatively you may
-copy the folder dictionary to some other location.
+If everything is in order the file **`dictionary/suda.dsl`** should be produced.  Point
+GoldenDict to this folder and the Suda lexicon is ready to search.  Alternatively you may
+copy the folder **`dictionary`** to some other location.
 
 There is also a release with `suda.dsl` compiled and ready to use.
 
 
 ## SEE ALSO
-<http://dadako.narod.ru/paperpoe.htm#greek>
-
-<http://www.poesialatina.it/_ns/greek/testi/Suda/Lexicon.html>
 
 <https://www.cs.uky.edu/~raphael/sol/sol-html/>
 
+<http://www.poesialatina.it/_ns/greek/testi/Suda/Lexicon.html>
 
+<http://dadako.narod.ru/paperpoe.htm#greek>
 
 <!-- vim: set tw=80 spell fo=tq: -->
