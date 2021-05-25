@@ -6,9 +6,9 @@ The [Suda Lexicon](https://en.wikipedia.org/wiki/Suda) is a Greek dictionary fro
 10th century A.D. containing more than 31000 lemmas.
 
 **Suda For GoldenDict** is a utility to decode the text of Suda, taken from the [TLG
-CDROM](http://stephanus.tlg.uci.edu/), into utf-8 text, and then compile the
-data into a ABBYY Lingvo .dsl dictionary file that can be used with
-[GoldenDict]( http://goldendict.org/), so that the Suda can be searched like any
+CDROM](http://stephanus.tlg.uci.edu/tlgauthors/cd.authors.php), into utf-8 text, and then compile the
+data into a ABBYY Lingvo .dsl dictionary file that can be used with digital
+dictionary lookup program [GoldenDict]( http://goldendict.org/), so that the Suda can be searched like any
 other modern dictionary.
 
 ## DEPENDENCIES
@@ -20,6 +20,7 @@ It requires the following:
 * Bash
 * Perl
 * Patch
+* Sed
 * TLG CDROM. This is no longer sold but it can be found via bit torrents.
 
 
@@ -40,7 +41,7 @@ There is also a release with `suda.dsl` compiled and ready to use.
 
 ## NOTES
 The Suda as encoded in the TLG CDROM is sourced from this hard copy edition:
-Suidae lexicon, 4 vols., Adler, A. (Ed) Leipzig, Teubner, 1928 - 1971
+*Suidae lexicon, 4 vols., Adler, A. (Ed) Leipzig, Teubner, 1928 - 1971*
 
 ## SEE ALSO
 
